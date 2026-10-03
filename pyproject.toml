@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thenet-0-1-deployment"
+version = "0.1.0"
+description = "Deployment wrapper for theNet 0.1"
+requires-python = ">=3.12"
+dependencies = [
+    "thenet @ git+https://github.com/Crazy-Chimera/theNet.git@main",
+]
+
+[tool.setuptools]
+packages = []
